@@ -53,6 +53,12 @@ body {
     line-height: 1.9;
 }
 
+/* untuk bagian yang ngambang diatas*/
+.blank {
+    height: 50px;
+    background-color: rgb(223, 49, 78);
+}
+
 .container{
     width: 980px;
     margin: 80px auto;
@@ -119,4 +125,47 @@ body {
 }
 .main dd{
     text-indent: 15px;
+}
+
+/* sidebar */
+.sidebar{
+    float: right;
+    text-transform: capitalize;
+    margin-right: 15px;
+}
+
+.sidebar h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    text-transform: lowercase;
+    transition: 5ms;
+    padding: 10px;
+    padding-left: 0;
+}
+.sidebar a:hover {
+    background-color: rgb(101, 255, 229);
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+.copy {
+    height: 30px;
+    background-color: rgb(44, 41, 41);
+    text-align: center;
+    line-height: 30px;
+}
+.copy p{
+    color: rgba(233, 195, 27, 0.856);
+    text-transform: capitalize;
+    font-size: 15px;
 }
